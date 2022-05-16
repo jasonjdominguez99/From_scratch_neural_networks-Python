@@ -5,12 +5,11 @@ Created on Fri Nov 20 18:00:48 2020
 @author: Jason
 """
 
-# EEEN4/60151 Machine Learning Laboratory
 # 2. Single Layer Perceptrons
 
 import mnist
-from ImageData_class import ImageData
-from Model_class import Model
+from ImageData import ImageData
+from Model import Model
 
 # Preprocess the images and labels using the ImageData class
 # For this task the image will need to be in the format 

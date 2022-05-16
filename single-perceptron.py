@@ -5,13 +5,12 @@ Created on Fri Nov 20 17:48:37 2020
 @author: Jason
 """
 
-# EEEN4/60151 Machine Learning Laboratory
 # 1. Single Perceptron
 
 
 import numpy as np
-from Model_class import Model
-from ImageData_class import ImageData
+from ImageData import ImageData
+from Model import Model
 
 # Create the 0 and 1 images as numpy array and the corresponding labels
 ones = np.array([[[0,0,1,0,0],

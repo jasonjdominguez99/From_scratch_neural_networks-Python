@@ -5,12 +5,11 @@ Created on Fri Nov 20 18:07:44 2020
 @author: Jason
 """
 
-# EEEN4/60151 Machine Learning Laboratory
 # 3. Multilayer Perceptrons
 
 import mnist
-from Model_class import Model
-from ImageData_class import ImageData
+from ImageData import ImageData
+from Model import Model
 
 # Preprocess the images and labels using the ImageData class
 # For this task the image will need to be in the format 
